@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "B+SN5Jy9z4k4b1RGHA+kRatxlN8MIG8bLQO3PRGIg8uU/bcXA0qnAOSJGDU2S3CUVBucwPBq+BiEDjdEiDYTIA==",
+  "dgSpecHash": "57MQm1BjTQg5LSioX7SzyjnPCGwtDTrrNZcOmhYaiBEP+nCZ8j0Crj74Lng+uzhYoBVyvouSdIEFkJQZ7Gj9iA==",
   "success": true,
-  "projectFilePath": "/home/ian-robert-pinheiro/dotnet/Semana1/Aula/Aula.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\iannr\\OneDrive\\Documents\\RESIDENCIA\\DotNET\\DOTNET\\Semana1\\Aula\\Aula.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iannr\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\iannr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\iannr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\iannr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

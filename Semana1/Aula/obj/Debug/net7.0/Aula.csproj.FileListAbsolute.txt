@@ -1,0 +1,5 @@
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\obj\Debug\net7.0\Aula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\obj\Debug\net7.0\Aula.AssemblyInfoInputs.cache
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\obj\Debug\net7.0\Aula.AssemblyInfo.cs
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\obj\Debug\net7.0\Aula.csproj.CoreCompileInputs.cache
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\obj\Debug\net7.0\Aula.sourcelink.json
