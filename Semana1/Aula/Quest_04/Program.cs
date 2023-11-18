@@ -1,0 +1,10 @@
+﻿int x=10, y=3, soma, subtracao, multiplicacao;
+double divisao;
+soma = x+y;
+subtracao = x-y;
+divisao = (double)x/y;
+multiplicacao = x*y;
+Console.WriteLine("Soma: " + soma);
+Console.WriteLine("Subtracao: " + subtracao);
+Console.WriteLine("Divisao: " + divisao);
+Console.WriteLine("Multiplicao: " + multiplicacao);

@@ -1,0 +1,15 @@
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\bin\Debug\net8.0\Quest_08.exe
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\bin\Debug\net8.0\Quest_08.deps.json
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\bin\Debug\net8.0\Quest_08.runtimeconfig.json
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\bin\Debug\net8.0\Quest_08.dll
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\bin\Debug\net8.0\Quest_08.pdb
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.AssemblyInfoInputs.cache
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.AssemblyInfo.cs
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.csproj.CoreCompileInputs.cache
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.sourcelink.json
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.dll
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\refint\Quest_08.dll
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.pdb
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\Quest_08.genruntimeconfig.cache
+C:\Users\iannr\OneDrive\Documents\RESIDENCIA\DotNET\DOTNET\Semana1\Aula\Quest_08\obj\Debug\net8.0\ref\Quest_08.dll
