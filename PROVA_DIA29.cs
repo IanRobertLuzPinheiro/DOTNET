@@ -25,7 +25,11 @@ class Medico:Pessoa{
     public string CRM {get;set;}
 
     public Medico(string _nome, DateTime _dataDeNascimento, string _cpf, string _crm):base(_nome,_dataDeNascimento,_cpf){
-        CRM = Validar
+        CRM = ValidarCRM(_crm);
+    }
+    
+    private string ValidarCRM(string _crm){
+        return _crm;
     }
     
 }
@@ -34,70 +38,56 @@ class Paciente{
     public string Sexo {get; set;}
     public string Sintomas {get;set;}
     
-     public Paciente(string _nome, DateTime _dataDeNascimento, string cpf, string _sexo, string _sintomas){
-        Nome = _nome;
-        DataDeNascimento = _dataDeNascimento;
-        CPF = _cpf;
+     public Paciente(string _nome, DateTime _dataDeNascimento, string _cpf, string _sexo, string _sintomas):base(_nome,_dataDeNascimento,_cpf){
         Sexo = _sexo;
         Sintomas = _sintomas;
     }
 }
 
 class Gerenciamento{
+    
+    static List<Medico> medicos = new List<Medico>();
+    static List<Paciente> pacientes = new List<Paciente>();
+    
     static void Main() {
       
       int opcao;
       
     do
     {
-        Console.WriteLine("1 - ");
-        Console.WriteLine("2 - ");
-        Console.WriteLine("3 - ");
-        Console.WriteLine("4 - ");
-        Console.WriteLine("5 - ");
-        Console.WriteLine("6 - ");
-        Console.WriteLine("7 - ");
-        Console.WriteLine("8 - ");
-        Console.WriteLine("9 - Sair");
+        Console.WriteLine("1 - Incluir paciente");
+        Console.WriteLine("2 - Incluir médico ;
+        Console.WriteLine("3 - Exibir relatórios");
+        Console.WriteLine("4 - Sair");
         
         opcao = int.Parse(Console.ReadLine());
         
          if(opcao == 1){
             
-
+            IncluirPaciente()
             
         }else if(opcao == 2){
             
-
+            IncluirMedico()
             
         }else if(opcao == 3){
             
-
+            ExibirRelatorios()
             
-        }else if(opcao == 4){
-
-            
-        }else if(opcao == 5){
-            
-
-            
-        }
-        else if(opcao == 6){
-            
-
-            
-        }else if(opcao == 7){
-            
-
-            
-        }else if(opcao == 8){
-            
-
-            
-        }else if(opcao == 9){
+        else if(opcao == 4){
             
             Console.WriteLine("Programa Encerrado!");
         }
         
-    }while(opcao!=9);
+    }while(opcao!=4);
+    
+    static void IncluirPaciente(){
+        Console.WriteLine("Nome do Paciente: ");
+        string _nome = Console.ReadLine(;
+        
+        Console.WriteLine("Data de Nacimento: ");
+        DateTime _dataDeNacimento = DateTime.Parse()
+    }
+        
+    }
 }
