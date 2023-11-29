@@ -53,41 +53,63 @@ class Gerenciamento{
       
       int opcao;
       
-    do
-    {
-        Console.WriteLine("1 - Incluir paciente");
-        Console.WriteLine("2 - Incluir médico ;
-        Console.WriteLine("3 - Exibir relatórios");
-        Console.WriteLine("4 - Sair");
-        
-        opcao = int.Parse(Console.ReadLine());
-        
-         if(opcao == 1){
+        do
+        {
+            Console.WriteLine("1 - Incluir paciente");
+            Console.WriteLine("2 - Incluir médico ;
+            Console.WriteLine("3 - Exibir relatórios");
+            Console.WriteLine("4 - Sair");
             
-            IncluirPaciente()
+            opcao = int.Parse(Console.ReadLine());
             
-        }else if(opcao == 2){
+             if(opcao == 1){
+                
+                IncluirPaciente()
+                
+            }else if(opcao == 2){
+                
+                IncluirMedico()
+                
+            }else if(opcao == 3){
+                
+                ExibirRelatorios()
+                
+            }else if(opcao == 4){
+                
+                Console.WriteLine("Programa Encerrado!");
+            }
             
-            IncluirMedico()
-            
-        }else if(opcao == 3){
-            
-            ExibirRelatorios()
-            
-        else if(opcao == 4){
-            
-            Console.WriteLine("Programa Encerrado!");
-        }
-        
-    }while(opcao!=4);
+        }while(opcao!=4);
+    }
     
     static void IncluirPaciente(){
         Console.WriteLine("Nome do Paciente: ");
         string _nome = Console.ReadLine(;
         
         Console.WriteLine("Data de Nacimento: ");
-        DateTime _dataDeNacimento = DateTime.Parse()
-    }
+        DateTime _dataDeNascimento= DateTime.Parse(Console.ReadLine());
         
+        Console.Write("CPF do paciente: ");
+        string _cpf = Console.ReadLine(;
+        
+        if(pacientes.Any(p => p.CPF == cpf)){
+            Console.WriteLine("CPF pertence a outro paciente.");
+            return;
+        }
+        
+        Console.WriteLine("Sexo do paciente: ");
+        string _sexo = Console.ReadLine();
+        
+        Console.WriteLine("Sintomas do paciente: ");
+        string _sintomas = Console.ReadLine();
+        
+        Paciente paciente = new Paciente(_nome, _dataDeNascimento, _cpf, _sexo, _sintomas);
+        pacientes.Add(paciente);
+        
+        Console.WriteLine("Paciente cadastrado com sucesso!!\n");
+    }
+    
+    static void IncluirMedico(){
+        Console.WriteLine
     }
 }
