@@ -84,9 +84,9 @@ class Gerenciamento
         Console.Write("CPF do paciente: ");
         string _cpf = Console.ReadLine();
 
-        if (pacientes.Any(p => p.CPF == _cpf))
+        if (pacientes.Any(p => p.CPF == _cpf) || _cpf.Length != 11)
         {
-            Console.WriteLine("CPF pertence a outro paciente.");
+            Console.WriteLine("CPF pertence a outro paciente ou não tem 11 dígitos");
             return;
         }
 
@@ -113,9 +113,9 @@ class Gerenciamento
 
         Console.WriteLine("CPF do médico: ");
         string _cpf = Console.ReadLine();
-        if (medicos.Any(m => m.CPF == _cpf))
+        if (medicos.Any(m => m.CPF == _cpf) || _cpf.Length != 11)
         {
-            Console.WriteLine("CPF pertence a outro médico");
+            Console.WriteLine("CPF pertence a outro médico ou não tem 11 dígitos");
             return;
         }
 
@@ -146,7 +146,7 @@ class Gerenciamento
             Console.WriteLine("4 - Pacientes em ordem alfabética");
             Console.WriteLine("5 - Pacientes cujos sintomas contenham texto informado pelo usuário");
             Console.WriteLine("6 - Médicos e Pacientes aniversariantes do mês informado");
-            Console.WriteLine("7 - Sair");
+            Console.WriteLine("7 - Voltar para o menu anterior");
     
             opcao = int.Parse(Console.ReadLine());
     
@@ -163,7 +163,7 @@ class Gerenciamento
                 }else if (opcao == 6)  {
                     RelatorioAniversariantesDoMes();
                 }else if (opcao == 7){
-                Console.WriteLine("Programa Encerrado!");
+                Console.WriteLine("Voltando ao menu anterior");
                 }
         } while (opcao != 7);
         
@@ -256,3 +256,4 @@ class Gerenciamento
         }
     }
 }
+
