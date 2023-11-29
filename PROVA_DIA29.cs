@@ -34,7 +34,7 @@ class Medico:Pessoa{
     
 }
 
-class Paciente{
+class Paciente:Pessoa{
     public string Sexo {get; set;}
     public string Sintomas {get;set;}
     
@@ -110,6 +110,31 @@ class Gerenciamento{
     }
     
     static void IncluirMedico(){
-        Console.WriteLine
+        
+        Console.WriteLine("Nome do Médico: ");
+        string _nome = Console.ReadLine(;
+        
+        Console.WriteLine("Data de nacimento: ");
+        DateTime _dataDeNascimento = DateTime.Parse(Console.ReadLine());
+        
+        Console.WriteLine("CPF do médico: ");
+        string _cpf = Console.ReadLine();
+        if(medicos.Any(m => m.CPF == _cpf){
+            Console.WriteLine("CPF pertence a outro médico");
+            return;
+        }
+        
+        Console.WriteLine("CRM do médico: ");
+        string _crm = Console.ReadLine();
+        if(medicos.Any(m => m.CRM= _crm
+            Console.WriteLine("CRM pertence a outro médico");
+            return;
+        }
+        
+        Medico medico = new Medico(_nome, _dataDeNascimento, _cpf, _crm);
+        medicos.Add(medico);
+        
+        Console.WriteLine("Medico adicionado com sucesso!!");
+        
     }
 }
