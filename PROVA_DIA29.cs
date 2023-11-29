@@ -14,14 +14,9 @@ class Pessoa
     {
         Nome = _nome;
         DataDeNascimento = _dataDeNascimento;
-        CPF = ValidarCPF(_cpf);
+        CPF = _cpf;
     }
 
-    private string ValidarCPF(string _cpf)
-    {
-
-        return _cpf;
-    }
 }
 
 class Medico : Pessoa
@@ -30,13 +25,7 @@ class Medico : Pessoa
 
     public Medico(string _nome, DateTime _dataDeNascimento, string _cpf, string _crm) : base(_nome, _dataDeNascimento, _cpf)
     {
-        CRM = ValidarCRM(_crm);
-    }
-
-    private string ValidarCRM(string _crm)
-    {
-
-        return _crm;
+        CRM = _crm;
     }
 }
 
@@ -89,7 +78,7 @@ class Gerenciamento
         Console.WriteLine("Nome do Paciente: ");
         string _nome = Console.ReadLine();
 
-        Console.WriteLine("Data de Nascimento: ");
+        Console.WriteLine("Data de Nascimento no formato ano/mes/dia: ");
         DateTime _dataDeNascimento = DateTime.Parse(Console.ReadLine());
 
         Console.Write("CPF do paciente: ");
@@ -101,7 +90,7 @@ class Gerenciamento
             return;
         }
 
-        Console.WriteLine("Sexo do paciente: ");
+        Console.WriteLine("Sexo do paciente (M ou F): ");
         string _sexo = Console.ReadLine();
 
         Console.WriteLine("Sintomas do paciente: ");
@@ -119,7 +108,7 @@ class Gerenciamento
         Console.WriteLine("Nome do Médico: ");
         string _nome = Console.ReadLine();
 
-        Console.WriteLine("Data de Nascimento: ");
+        Console.WriteLine("Data de Nascimento o formato ano/mes/dia: ");
         DateTime _dataDeNascimento = DateTime.Parse(Console.ReadLine());
 
         Console.WriteLine("CPF do médico: ");
